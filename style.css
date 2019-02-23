@@ -18,6 +18,7 @@ body {
   flex-flow: column;
   justify-content: center;
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 3vmin;
 }
 
 a, a:visited, a:active {
@@ -36,6 +37,14 @@ a:hover {
   padding: 1rem;
   margin: auto;
   max-width: 800px;
+}
+
+h1 {
+  font-size: 4.6vh;
+}
+
+h2 {
+  font-size: 3.0vh;
 }
 
 /*
@@ -70,7 +79,7 @@ header table td:first-child {
 section {
   display: flex;
   flex-flow: column;
-  padding-bottom: 1rem;
+  padding: 0 1rem 1rem 0;
   margin-bottom: 2rem;
   border-bottom: 1px solid #c44242;
 }

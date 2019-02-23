@@ -1,6 +1,6 @@
 # Kaapo
 
-Kaapon omat sivut
+[Kaapon omat sivut](https://jarppe.github.io/kaapo/)
 
 # License
 

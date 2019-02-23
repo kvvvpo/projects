@@ -51,7 +51,7 @@ header {
 }
 
 header table {
-  margin-left: 1rem;
+  margin-left: 2rem;
   border: none;
 }
 
@@ -68,7 +68,20 @@ header table td:first-child {
 */
 
 section {
+  display: flex;
+  flex-flow: column;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid #c44242;
+}
+
+.juttu {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.media {
+  width: 304px;
+  background: red;
+  margin: 0 1rem 1rem 0;
 }

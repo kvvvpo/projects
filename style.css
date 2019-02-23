@@ -34,7 +34,8 @@ a:hover {
 
 .page {
   padding: 1rem;
-  max-width: 600px;
+  margin: auto;
+  max-width: 800px;
 }
 
 /*

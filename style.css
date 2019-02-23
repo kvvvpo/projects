@@ -67,12 +67,12 @@ header table {
   border: none;
 }
 
-header table tr {
+header table td {
   padding-bottom: 0.5rem;
 }
 
 header table td:first-child {
-  width: 3rem;
+  width: 4rem;
 }
 
 /*

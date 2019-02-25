@@ -1,6 +1,6 @@
 # Kaapo
 
-[Kaapon omat sivut](https://jarppe.github.io/kaapo/)
+[Kaapon projecktit](https://kvvvpo.github.io/projects/)
 
 # License
 

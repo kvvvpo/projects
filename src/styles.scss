@@ -1,0 +1,187 @@
+// Base colors:
+// -----------------------------------------------
+
+
+$color-high: #d9732f;
+$color-light: #ed00ff;
+$color-semi: #5b0085;
+$color-dark: #1c0031;
+
+// Reset:
+
+@import 'reset';
+
+
+// Base elements:
+// -----------------------------------------------
+
+
+html {
+  color:       $color-light;
+  background:  $color-dark;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:   16px;
+}
+
+
+body {
+  display:     flex;
+  flex-flow:   column;
+  align-items: stretch;
+}
+
+
+h1 {
+  font-size: 300%;
+}
+
+
+h2 {
+  font-size: 150%;
+}
+
+
+// Links:
+// -------------------------------------------------
+
+
+a, a:visited, a:active {
+  color:           $color-light;
+  border-bottom:   1px dashed $color-light;
+  text-decoration: none;
+  transition:      all 0.5s;
+
+  &:hover {
+    color:               #f0f0f0;
+    border-bottom-color: #f0f0f0;
+  }
+}
+
+
+.reverse a, .reverse a:visited, .reverse a:active {
+  color:         $color-light;
+  border-bottom: 1px dashed $color-light;
+
+  &:hover {
+    color:               #f0f0f0;
+    border-bottom-color: #f0f0f0;
+  }
+}
+
+
+// block:
+// -------------------------------------------------
+
+
+.reverse {
+  background: $color-semi;
+  color:      $color-light;
+}
+
+
+.container {
+  padding:   1rem 1rem 1rem 1rem;
+  margin:    auto;
+  max-width: 900px;
+}
+
+
+.header {
+  display:     flex;
+  flex-flow:   row;
+  align-items: flex-start;
+
+  h1 {
+    border-bottom: 2px solid $color-light;
+    padding:       0 0 0.5rem 0;
+    margin:        0 1rem 1rem 0;
+  }
+
+  .title {
+    flex-grow: 2;
+  }
+
+  .play {
+    width: 160px;
+    min-width: 160px;
+  }
+}
+
+
+.footer {
+  display:   flex;
+  flex-flow: column;
+
+  .profile {
+    width:         100px;
+    border-radius: 50%;
+    overflow:      hidden;
+  }
+
+  .contact {
+    display:   flex;
+    flex-flow: row;
+  }
+
+  .contacts {
+    display:   flex;
+    flex-flow: row;
+    padding:   1rem;
+
+    li {
+      padding: 0 0.6rem 0.6rem 0;
+    }
+  }
+
+  .copyright {
+    margin-top: 1.5rem;
+    font-size: 80%;
+  }
+
+  .license {
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    font-size: 80%;
+  }
+}
+
+
+.article {
+  margin: 3rem 0 0 0;
+  h1 {
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid $color-light;
+    margin-bottom: 1rem;
+    font-size: 250%;
+  }
+  h2 {
+    font-size: 150%;
+    margin-bottom: 1rem;
+
+  }
+  p {
+    margin: 0.6rem 0 0.6rem 0;
+  }
+}
+
+//
+// blur-shadow:
+// --------------------------------------------------------
+
+
+.blur-shadow {
+  display:  block;
+  position: relative;
+}
+
+
+.blur-shadow:before {
+  display:            block;
+  content:            '';
+  position:           absolute;
+  width:              100%;
+  height:             100%;
+  box-shadow:         inset 0px 0px 3px 1px #5b0085;
+  -moz-box-shadow:    inset 0px 0px 3px 1px #5b0085;
+  -webkit-box-shadow: inset 0px 0px 3px 1px #5b0085;
+}

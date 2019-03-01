@@ -364,6 +364,11 @@ a:hover, a:visited:hover, a:active:hover {
 .article .images a:hover {
   border: 1px dashed #ed00ff;
 }
+.article .audio {
+  margin: 0 auto;
+  padding: 0.5rem;
+  display: table;
+}
 
 .blur-shadow {
   display: block;

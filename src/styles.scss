@@ -102,7 +102,7 @@ a, a:visited, a:active {
   }
 
   .play {
-    width: 160px;
+    width:     160px;
     min-width: 160px;
   }
 }
@@ -135,43 +135,49 @@ a, a:visited, a:active {
 
   .copyright {
     margin-top: 1.5rem;
-    font-size: 80%;
+    font-size:  80%;
   }
 
   .license {
-    margin-top: 0.3rem;
+    margin-top:    0.3rem;
     margin-bottom: 0.8rem;
-    font-size: 80%;
+    font-size:     80%;
   }
 }
 
 
 .article {
   margin: 3rem 0 0 0;
+
   h1 {
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid $color-light;
-    margin-bottom: 1rem;
-    font-size: 250%;
+    border-bottom:  1px solid $color-light;
+    margin-bottom:  1rem;
+    font-size:      250%;
   }
+
   h2 {
-    font-size: 150%;
+    font-size:     150%;
     margin-bottom: 1rem;
 
   }
+
   p {
     margin: 0.6rem 0 0.6rem 0;
   }
+
   .images {
-    display: flex;
+    display:         flex;
     justify-content: space-around;
-    align-items: flex-start;
-    flex-flow: row wrap;
+    align-items:     flex-start;
+    flex-flow:       row wrap;
+
     img {
-      width: 400px;
+      width:   400px;
       padding: 0.2rem;
-      margin: 0.2rem;
+      margin:  0.2rem;
     }
+
     a {
       border: 1px dashed #00000000;
 
@@ -180,7 +186,14 @@ a, a:visited, a:active {
       }
     }
   }
+
+  .audio {
+    margin:  0 auto;
+    padding: 0.5rem;
+    display: table;
+  }
 }
+
 
 //
 // blur-shadow:

@@ -347,6 +347,23 @@ a:hover, a:visited:hover, a:active:hover {
 .article p {
   margin: 0.6rem 0 0.6rem 0;
 }
+.article .images {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+.article .images img {
+  width: 400px;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+.article .images a {
+  border: 1px dashed #00000000;
+}
+.article .images a:hover {
+  border: 1px dashed #ed00ff;
+}
 
 .blur-shadow {
   display: block;

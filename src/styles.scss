@@ -162,6 +162,24 @@ a, a:visited, a:active {
   p {
     margin: 0.6rem 0 0.6rem 0;
   }
+  .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    img {
+      width: 400px;
+      padding: 0.2rem;
+      margin: 0.2rem;
+    }
+    a {
+      border: 1px dashed #00000000;
+
+      &:hover {
+        border: 1px dashed $color-light;;
+      }
+    }
+  }
 }
 
 //

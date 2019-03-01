@@ -1,6 +1,6 @@
 {
-  "dependencies": {
-    "sass": "^1.15.2"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "sass": "^1.15.2",
+    "simple-autoreload-server": "^0.2.7"
+  }
 }

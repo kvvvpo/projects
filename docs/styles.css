@@ -355,14 +355,23 @@ a:hover, a:visited:hover, a:active:hover {
 }
 .article .images img {
   width: 400px;
-  padding: 0.2rem;
-  margin: 0.2rem;
 }
 .article .images a {
   border: 1px dashed #00000000;
 }
 .article .images a:hover {
-  border: 1px dashed #ed00ff;
+  border-color: #ed00ff;
+}
+.article .images .image {
+  display: flex;
+  flex-flow: column;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+.article .images .image span {
+  margin-top: 0.3rem;
+  color: #ed00ff;
+  font-size: 70%;
 }
 .article .audio {
   margin: 0 auto;

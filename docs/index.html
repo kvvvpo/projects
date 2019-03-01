@@ -39,10 +39,14 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57228234-3"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-57228234-3');
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+      gtag('config', 'UA-57228234-3');
   </script>
 
 </head>
@@ -74,18 +78,30 @@
     <div class="article">
       <h1>Keikkakuvia</h1>
       <div class="images">
-        <a href="media/AIMG_1738.jpg" target="_blank">
-          <img src="media/AIMG_1738.small.jpg"/>
-        </a>
-        <a href="media/AIMG_1758.jpg" target="_blank">
-          <img src="media/AIMG_1758.small.jpg"/>
-        </a>
-        <a href="media/AIMG_1796.jpg" target="_blank">
-          <img src="media/AIMG_1796.small.jpg"/>
-        </a>
-        <a href="media/AIMG_2241.jpg" target="_blank">
-          <img src="media/AIMG_2241.small.jpg"/>
-        </a>
+        <div class="image">
+          <a href="media/AIMG_1738.jpg" target="_blank">
+            <img src="media/AIMG_1738.small.jpg"/>
+          </a>
+          <span>&copy; Topi Ahvenus 2019</span>
+        </div>
+        <div class="image">
+          <a href="media/AIMG_1758.jpg" target="_blank">
+            <img src="media/AIMG_1758.small.jpg"/>
+          </a>
+          <span>&copy; Topi Ahvenus 2019</span>
+        </div>
+        <div class="image">
+          <a href="media/AIMG_1796.jpg" target="_blank">
+            <img src="media/AIMG_1796.small.jpg"/>
+          </a>
+          <span>&copy; Topi Ahvenus 2019</span>
+        </div>
+        <div class="image">
+          <a href="media/AIMG_2241.jpg" target="_blank">
+            <img src="media/AIMG_2241.small.jpg"/>
+          </a>
+          <span>&copy; Topi Ahvenus 2019</span>
+        </div>
       </div>
     </div>
   </div>
@@ -108,7 +124,9 @@
       <p>
         Bändini oma biisi <i>Pick Me Up</i>.
       </p>
-      <div class="audio"><audio src="media/Pick-Me-Up.mp3" controls></div>
+      <div class="audio">
+        <audio src="media/Pick-Me-Up.mp3" controls>
+      </div>
       <p>
         Kyseessä ensimmäinen pikainen äänitys kappaleesta, joten äänenlaatu ei paras mahdollinen.
       </p>
@@ -154,8 +172,8 @@
   </div>
 </div>
 <script>
-  console.log("Greetings, fellow web hacker.");
-  console.log("The sources for this site can be found at https://github.com/kvvvpo/projects/");
+    console.log("Greetings, fellow web hacker.");
+    console.log("The sources for this site can be found at https://github.com/kvvvpo/projects/");
 </script>
 </body>
 </html>
